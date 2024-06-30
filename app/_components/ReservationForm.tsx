@@ -4,6 +4,7 @@ import { useReservation } from "../_context/ReservationContext";
 import { differenceInDays } from "date-fns";
 import { createBooking } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
+import Image from "next/image";
 function ReservationForm({ cabin, user }: { cabin: ICabin; user: IUserAuth }) {
   const { range, resetRange } = useReservation();
   // CHANGE
@@ -28,11 +29,13 @@ function ReservationForm({ cabin, user }: { cabin: ICabin; user: IUserAuth }) {
 
         <div className="flex md:gap-4 gap-3  items-center">
           <p>{user.name}</p>
-          <img
+          <Image
             referrerPolicy="no-referrer"
             className="sm:h-7 h-5 rounded-full"
             src={user.image}
             alt={user.name}
+            width={20}
+            height={20}
           />
         </div>
       </div>

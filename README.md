@@ -1,6 +1,8 @@
 <div align="center">
   <br />
+  <a href="https://the-next-wild-oasis.vercel.app/" target="_blank">
       <img src="/public/bg.png" alt="Project Banner">
+      <a/>
   <br />
   
   <div>
@@ -50,4 +52,4 @@ git clone https://github.com/MR-b7r/The-Wild-Oasis.git
 npm run dev
 ```
 
-Open [https://horizon-bank-five.vercel.app/](https://horizon-bank-five.vercel.app/) in your browser to view the project.
+Open [https://the-next-wild-oasis.vercel.app/](https://the-next-wild-oasis.vercel.app/) in your browser to view the project.

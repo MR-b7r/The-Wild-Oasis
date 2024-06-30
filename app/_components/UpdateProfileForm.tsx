@@ -6,6 +6,7 @@ import { updateGuest } from "../_lib/actions";
 import { useFormStatus } from "react-dom";
 import SpinnerMini from "./SpinnerMini";
 import SubmitButton from "./SubmitButton";
+import Image from "next/image";
 
 export default function UpdateProfileForm({
   children,
@@ -53,10 +54,12 @@ export default function UpdateProfileForm({
       <div className="space-y-2 md:text-lg text-base">
         <div className="flex items-center justify-between">
           <label htmlFor="nationality">Where are you from?</label>
-          <img
+          <Image
             src={countryFlag}
             alt="Country flag"
             className="md:h-5 h-3 rounded-sm"
+            width={12}
+            height={12}
           />
         </div>
 

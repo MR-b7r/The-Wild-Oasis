@@ -38,3 +38,13 @@
   --rdp-background-color: theme("colors.accent.600") !important;
   margin: 0 !important;
 }
+.rdp-dropdown_month {
+  color: theme("colors.accent.500") !important;
+}
+.rdp-dropdown_year {
+  color: theme("colors.accent.500") !important;
+}
+.rdp-dropdown {
+  background-color: theme("colors.slate.200") !important ;
+  padding: 10px !important ;
+}
